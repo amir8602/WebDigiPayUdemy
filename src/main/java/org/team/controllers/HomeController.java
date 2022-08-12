@@ -6,11 +6,12 @@ import org.springframework.web.bind.annotation.*;
 
 public class HomeController {
 
-    @GetMapping()
+    @GetMapping("/home")
     public String getHome(){
         System.out.println("get");
-        return "amir";
+        return "input";
     }
+
 
 //    @PostMapping()
 //    public String postHome(){
