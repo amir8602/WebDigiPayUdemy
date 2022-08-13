@@ -11,7 +11,7 @@
     <title>hello word</title>
 </head>
 <body>
-<form method="get" action="/processFormVersionTwo" >
+<form method="post" action="/processFormVersionTwo" >
 
     <input  type="text"  name="studentName" placeholder="whats your name?">
     <input type="submit" value="Submit Query" />
