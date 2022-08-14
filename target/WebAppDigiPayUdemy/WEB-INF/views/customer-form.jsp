@@ -11,7 +11,7 @@
 <head>
     <title>Customer Register Form</title>
  <style>
-     .error{color:aqua}
+     .error{color:red}
  </style>
 </head>
 <body>
@@ -25,9 +25,14 @@
 
     Last name:<form:input path="lastName"/>
     <form:errors path="lastName" cssClass="error"/>
-    <form:errors path="lastName" />
+
     <br/><br/>
+    number : <form:input path="number" />
+    <form:errors path="number"  cssClass="error"/>
+    <br/><br/>
+
     <input type="submit" value="Submit">
+   
 </form:form>
 
 </body>
