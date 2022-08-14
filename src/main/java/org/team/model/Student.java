@@ -1,4 +1,4 @@
-package org.team;
+package org.team.model;
 
 
 

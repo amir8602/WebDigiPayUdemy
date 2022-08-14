@@ -1,9 +1,10 @@
-package org.team;
+package org.team.model;
 
 
 import javax.validation.constraints.*;
 
 import lombok.Data;
+import org.team.validation.CourseCode;
 
 
 @Data
@@ -27,6 +28,8 @@ public class Customer {
     @NotNull(message = "not null")
     private Integer number;
 
+    @CourseCode(value = "Sara")
+    private String courseCode;
 
 
 
