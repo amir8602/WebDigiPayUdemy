@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 
 public class SillyController {
-    @RequestMapping("/showForm")
+    @RequestMapping("/Form")
     public String displayTheForm(){
         return "helloworld-form";
     }

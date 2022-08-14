@@ -5,6 +5,7 @@
   Time: 6:08 PM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib prefix="sara" uri="http://www.springframework.org/tags/form" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -17,6 +18,18 @@
     <input type="submit" value="Submit Query" />
 </form>
 <a href="/show" >Landing Page</a>
+
+<br/>
+<br/>
+<br/>
+
+<sara:form action="/sara"  modelAttribute="person"  method="post">
+    Name : <sara:input path="name" /><br/>
+    Family : <sara:input   path="family" /><br/>
+    Age : <sara:input   path="age" /><br/>
+    <sara:button name="submit" value="submit" />
+</sara:form>
+
 
 <%--<form action="/person/submit" method="post">--%>
 <%--    name : <input name="name" id="name" type="text" /> <br/> <br/>--%>
