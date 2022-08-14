@@ -31,8 +31,14 @@
     <form:errors path="number"  cssClass="error"/>
     <br/><br/>
 
+    Course Code : <form:input path="courseCode"/>
+    <form:errors cssClass="error" path="courseCode"/>
+
+    <br/><br/>
+
     <input type="submit" value="Submit">
-   
+
+
 </form:form>
 
 </body>
