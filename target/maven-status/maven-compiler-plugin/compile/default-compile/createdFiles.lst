@@ -1,4 +1,10 @@
 org\team\controllers\HomeController.class
+org\team\Student.class
 org\team\config_classes\WebMvcConfig.class
+org\team\controllers\CustomerController.class
+org\team\Person.class
+org\team\controllers\StudentController.class
 org\team\controllers\HelloWordController.class
 org\team\config_classes\SpringServletDispatcherConfig.class
+org\team\controllers\SillyController.class
+org\team\Customer.class

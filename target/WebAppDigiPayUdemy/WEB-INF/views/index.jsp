@@ -10,6 +10,8 @@
 <br/>
 <a href="https://www.w3schools.com">w3schools</a>
 <a href="/student/showForm">Student form</a>
+<br><br>
+<a href="customer/showForm">Customer form</a>
 
 </body>
 </html>
